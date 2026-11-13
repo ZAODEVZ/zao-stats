@@ -1,25 +1,25 @@
 {
  "date": "2026-11-13",
- "at": "2026-11-13T04:41:30Z",
+ "at": "2026-11-13T04:50:38Z",
  "source": "https://wavewarz.info",
  "stats": {
-  "updatedAt": "2026-11-13T04:41:16.491Z",
-  "solPriceUsd": 78.29,
+  "updatedAt": "2026-11-13T04:50:28.948Z",
+  "solPriceUsd": 78.24,
   "volume": {
    "totalSol": 1009.9502,
-   "totalUsd": 79069.0003,
+   "totalUsd": 79018.5028,
    "last24hSol": 0,
    "last7dSol": 4.2307
   },
   "liveBattle": null,
   "artistPayouts": {
    "totalSol": 15.932,
-   "totalUsd": 1247.3133,
+   "totalUsd": 1246.5167,
    "note": "Instant, automatic onchain payouts to artists — 1% of trading volume + settlement bonus"
   },
   "traderClaims": {
    "totalSol": 524.9214,
-   "totalUsd": 41096.0962,
+   "totalUsd": 41069.8501,
    "withdrawalCount": 3627,
    "note": "Real trader withdrawals (claimShares), parsed from onchain vault transactions"
   },

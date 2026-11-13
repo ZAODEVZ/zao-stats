@@ -1,10 +1,10 @@
 # ZAO stats
 
-Numbers The ZAO can point at, read from the source every night: who holds ZAO Respect on Optimism (the two contracts), and what WaveWarZ has done (wavewarz.info's public API). Updated 2026-11-13T04:48:29Z. Site: https://zaodevz.github.io/zao-stats/ . Data: `data/` (one JSON per day per source).
+Numbers The ZAO can point at, read from the source every night: who holds ZAO Respect on Optimism (the two contracts), and what WaveWarZ has done (wavewarz.info's public API). Updated 2026-11-13T04:50:27Z. Site: https://zaodevz.github.io/zao-stats/ . Data: `data/` (one JSON per day per source).
 
 ## ZAO Respect holders
 
-Optimism block 159,473,230, 2026-11-13T04:48:29Z.
+Optimism block 159,473,317, 2026-11-13T04:50:27Z.
 
 | | OG Respect (ERC-20) | ZOR Respect (ERC-1155) | Both |
 |---|--:|--:|--:|
@@ -12,7 +12,7 @@ Optimism block 159,473,230, 2026-11-13T04:48:29Z.
 | Contract total | 38,484 (totalSupply) | 20,408 (totalRespect) | |
 | Wallets holding | 122 | 72 | 173 wallets, 21 hold both |
 
-Top 10 wallets hold 45.2% of all Respect held. 2 wallets are a smart contract. Since Zaal's 31 Oct 2026 snapshot (block 158,930,150): 12 transfers, 1 new wallet, 11 balances changed.
+Top 10 wallets hold 45.2% of all Respect held. 2 wallets are a smart contract. Since Zaal's 31 Oct 2026 snapshot (block 158,930,150): 12 transfers, 0 new wallets, 11 balances changed.
 
 | # | Wallet | OG | ZOR | Total | Share |
 |--:|---|--:|--:|--:|--:|
@@ -56,17 +56,17 @@ All 173 wallets: `data/respect/2026-11-13.json` or the site.
 
 ## WaveWarZ
 
-wavewarz.info public API, 2026-11-13T04:41:30Z.
+wavewarz.info public API, 2026-11-13T04:50:38Z.
 
 | | |
 |---|--:|
 | Battles | 1,706 (1,501 decided) |
 | By kind | 65 main events, 197 main battles, 1,471 quick, 38 community |
-| Trading volume | 1,010 SOL (about $79,069), last 7 days 4.23 SOL |
+| Trading volume | 1,010 SOL (about $79,019), last 7 days 4.23 SOL |
 | Paid to artists | 15.93 SOL (about $1,247), automatic, 1% of volume plus settlement bonus |
-| Trader withdrawals | 524.9 SOL (about $41,096) over 3,627 claims |
+| Trader withdrawals | 524.9 SOL (about $41,070) over 3,627 claims |
 | Artists and songs | 1,179 artist names, 1,180 songs |
-| SOL price used | $78.29 |
+| SOL price used | $78.24 |
 
 | # | Artist | Battles | Wins | Win rate | Vol SOL | Songs |
 |--:|---|--:|--:|--:|--:|--:|

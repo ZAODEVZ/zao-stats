@@ -1,8 +1,8 @@
 {
  "date": "2026-11-13",
- "at": "2026-11-13T04:48:29Z",
+ "at": "2026-11-13T04:50:27Z",
  "chain": "optimism",
- "block": 159473230,
+ "block": 159473317,
  "og": {
   "address": "0x34cE89baA7E4a4B00E17F7E4C0cb97105C216957",
   "totalSupply": 38484,
@@ -22,7 +22,7 @@
  "sinceSeed": {
   "seedBlock": 158930150,
   "transfers": 12,
-  "newWallets": 1,
+  "newWallets": 0,
   "walletsChanged": 11,
   "dropped": 0
  },
