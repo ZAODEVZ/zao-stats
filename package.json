@@ -1,0 +1,16 @@
+{
+  "name": "zao-stats",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "ZAO Respect holders on Optimism and WaveWarZ numbers, read from the source every night.",
+  "scripts": {
+    "update": "node scripts/update.mjs",
+    "respect": "node scripts/respect.mjs",
+    "wavewarz": "node scripts/wavewarz.mjs",
+    "render": "node scripts/render.mjs",
+    "site": "node -e \"import('node:http').then(h=>{const fs=require('fs'),p=require('path');h.createServer((q,s)=>{let f=p.join('docs',q.url.split('?')[0]==='/'?'index.html':q.url.split('?')[0]);fs.readFile(f,(e,d)=>{s.writeHead(e?404:200,{'content-type':f.endsWith('.json')?'application/json':'text/html'});s.end(e?'nope':d)})}).listen(8788,()=>console.log('http://localhost:8788'))})\""
+  },
+  "engines": { "node": ">=20" },
+  "license": "CC0-1.0"
+}

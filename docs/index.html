@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ZAO stats</title>
+<meta name="description" content="Who holds ZAO Respect on Optimism and what WaveWarZ has done, read from the source every night.">
+<style>
+  :root { --bg: #0b0b10; --panel: #15151d; --line: #26262f; --text: #ececf1; --muted: #9a9aa8; --gold: #e3b341; --accent: #7bd3ff; --mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+  @media (prefers-color-scheme: light) { :root { --bg: #fafafa; --panel: #fff; --line: #e4e4ea; --text: #15151d; --muted: #5d5d6b; --gold: #9a6b00; --accent: #0b6fa8; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 system-ui, -apple-system, Segoe UI, Roboto, sans-serif; }
+  main { max-width: 1000px; margin: 0 auto; padding: 24px 16px 64px; }
+  h1 { font-size: 24px; margin: 0 0 4px; }
+  h2 { font-size: 18px; margin: 28px 0 10px; }
+  .sub { color: var(--muted); margin: 0 0 18px; }
+  .tabs { display: flex; gap: 8px; margin: 16px 0; }
+  .tabs button { background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 999px; padding: 8px 14px; font: inherit; cursor: pointer; }
+  .tabs button[aria-selected="true"] { border-color: var(--gold); color: var(--gold); }
+  .tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+  .tile { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+  .tile b { display: block; font: 500 22px var(--mono); color: var(--gold); }
+  .tile span { color: var(--muted); font-size: 13px; }
+  table { width: 100%; border-collapse: collapse; background: var(--panel); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; font-size: 14px; }
+  th, td { padding: 8px 10px; text-align: right; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  th:first-child, td:first-child, th.l, td.l { text-align: left; }
+  th { color: var(--muted); font-weight: 500; }
+  tr:last-child td { border-bottom: 0; }
+  .mono { font-family: var(--mono); font-size: 13px; }
+  .wrap { overflow-x: auto; }
+  input[type=search] { width: 100%; max-width: 420px; background: var(--panel); color: var(--text); border: 1px solid var(--line); border-radius: 10px; padding: 9px 12px; font: inherit; margin: 6px 0 12px; }
+  .note { color: var(--muted); font-size: 13px; }
+  a { color: var(--accent); }
+  .tag { font-size: 11px; color: var(--muted); border: 1px solid var(--line); border-radius: 6px; padding: 0 5px; margin-left: 6px; }
+  .hidden { display: none; }
+</style>
+</head>
+<body>
+<main>
+  <h1>ZAO stats</h1>
+  <p class="sub" id="sub">Loading the latest numbers...</p>
+  <div class="tabs" role="tablist">
+    <button role="tab" aria-selected="true" data-tab="respect">Respect holders</button>
+    <button role="tab" aria-selected="false" data-tab="wavewarz">WaveWarZ</button>
+  </div>
+
+  <section id="respect">
+    <div class="tiles" id="r-tiles"></div>
+    <h2>Every wallet</h2>
+    <input type="search" id="q" placeholder="Search a wallet (0x...)" aria-label="Search a wallet">
+    <div class="wrap"><table id="r-table"><thead><tr><th>#</th><th class="l">Wallet</th><th>OG</th><th>ZOR</th><th>Total</th><th>Share</th></tr></thead><tbody></tbody></table></div>
+    <p class="note" id="r-note"></p>
+  </section>
+
+  <section id="wavewarz" class="hidden">
+    <div class="tiles" id="w-tiles"></div>
+    <h2>Artists by wins</h2>
+    <div class="wrap"><table id="w-artists"><thead><tr><th>#</th><th class="l">Artist</th><th>Battles</th><th>Wins</th><th>Win rate</th><th>Vol SOL</th><th>Songs</th></tr></thead><tbody></tbody></table></div>
+    <h2>Songs by trading volume</h2>
+    <div class="wrap"><table id="w-songs"><thead><tr><th>#</th><th class="l">Song</th><th class="l">Artist</th><th>Battles</th><th>Wins</th><th>Vol SOL</th></tr></thead><tbody></tbody></table></div>
+    <p class="note" id="w-note"></p>
+  </section>
+
+  <h2>History</h2>
+  <div class="wrap"><table id="history"><thead><tr><th class="l">Date</th><th>Wallets</th><th>OG held</th><th>ZOR held</th><th>Battles</th><th>Volume SOL</th><th>Artist payouts SOL</th></tr></thead><tbody></tbody></table></div>
+  <p class="note">Source: Optimism contracts <span class="mono">0x34cE...6957</span> (OG, ERC-20) and <span class="mono">0x9885...445c</span> (ZOR, ERC-1155), read live each night; wavewarz.info public API. Code and daily JSON: <a href="https://github.com/ZAODEVZ/zao-stats">github.com/ZAODEVZ/zao-stats</a>.</p>
+</main>
+<script>
+  const $ = (s) => document.querySelector(s);
+  const fmt = (n) => n == null ? "" : Math.round(n).toLocaleString("en-US");
+  const dec = (n, d = 2) => n == null ? "" : Number(n).toLocaleString("en-US", { maximumFractionDigits: d });
+  const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+  const tile = (b, s) => `<div class="tile"><b>${b}</b><span>${s}</span></div>`;
+  for (const btn of document.querySelectorAll("[data-tab]")) btn.onclick = () => {
+    for (const b of document.querySelectorAll("[data-tab]")) b.setAttribute("aria-selected", b === btn);
+    $("#respect").classList.toggle("hidden", btn.dataset.tab !== "respect");
+    $("#wavewarz").classList.toggle("hidden", btn.dataset.tab !== "wavewarz");
+    try { localStorage.setItem("zao-stats-tab", btn.dataset.tab); } catch {}
+  };
+  try { const t = localStorage.getItem("zao-stats-tab"); if (t) document.querySelector(`[data-tab="${t}"]`)?.click(); } catch {}
+
+  let holders = [];
+  const drawHolders = (q = "") => {
+    const rows = holders.filter((h) => !q || h.wallet.includes(q.toLowerCase()));
+    const total = holders.reduce((n, h) => n + h.total, 0);
+    $("#r-table tbody").innerHTML = rows.map((h, i) => `<tr><td>${holders.indexOf(h) + 1}</td><td class="l mono">${h.wallet}${h.contract ? '<span class="tag">contract</span>' : ""}</td><td>${fmt(h.og)}</td><td>${fmt(h.zor)}</td><td>${fmt(h.total)}</td><td>${total ? (100 * h.total / total).toFixed(2) + "%" : ""}</td></tr>`).join("") || `<tr><td colspan="6" class="l">No wallet matches.</td></tr>`;
+  };
+  $("#q").oninput = (e) => drawHolders(e.target.value.trim());
+
+  fetch("data.json", { cache: "no-store" }).then((r) => r.json()).then((d) => {
+    const r = d.respect, w = d.wavewarz;
+    $("#sub").textContent = `Read ${r?.at ?? w?.at ?? d.generated}. Respect at Optimism block ${fmt(r?.block)}.`;
+    if (r) {
+      holders = r.holders;
+      const top10 = r.holders.slice(0, 10).reduce((n, h) => n + h.total, 0);
+      $("#r-tiles").innerHTML = tile(fmt(r.wallets), "wallets hold Respect") + tile(fmt(r.og.held), `OG Respect held (contract total ${fmt(r.og.totalSupply)})`) + tile(fmt(r.zor.held), `ZOR Respect held (contract total ${fmt(r.zor.totalRespect)})`) + tile(fmt(r.totalHeld), "Respect held in all") + tile(r.both, "wallets hold both") + tile((100 * top10 / r.totalHeld).toFixed(1) + "%", "held by the top 10");
+      drawHolders();
+      $("#r-note").textContent = `Since the 31 Oct 2026 snapshot (block ${fmt(r.sinceSeed.seedBlock)}): ${r.sinceSeed.transfers} transfers, ${r.sinceSeed.newWallets} new wallets, ${r.sinceSeed.walletsChanged} balances changed. Counts wallets, not people; 27 members have no wallet on file; Respect in proposals not yet executed is not counted.`;
+    }
+    if (w) {
+      const s = w.stats || {};
+      $("#w-tiles").innerHTML = tile(fmt(w.battles.total), `battles (${fmt(w.battles.decided)} decided)`) + tile(dec(s.volume?.totalSol, 1), `SOL traded (about $${fmt(s.volume?.totalUsd)})`) + tile(dec(s.artistPayouts?.totalSol), `SOL paid to artists (about $${fmt(s.artistPayouts?.totalUsd)})`) + tile(dec(s.traderClaims?.totalSol, 1), `SOL withdrawn by traders, ${fmt(s.traderClaims?.withdrawalCount)} claims`) + tile(fmt(w.artists), "artist names") + tile(fmt(w.songs), "songs battled");
+      $("#w-artists tbody").innerHTML = w.topArtists.map((a, i) => `<tr><td>${i + 1}</td><td class="l">${esc(a.name)}</td><td>${a.battles}</td><td>${a.wins}</td><td>${a.winRate}%</td><td>${dec(a.volumeSol)}</td><td>${a.songs}</td></tr>`).join("");
+      $("#w-songs tbody").innerHTML = w.topSongs.map((t, i) => `<tr><td>${i + 1}</td><td class="l"><a href="${esc(t.url)}" target="_blank" rel="noopener">${esc(t.url.replace(/^https?:\/\/(www\.)?/, "").slice(0, 60))}</a></td><td class="l">${esc(t.artist)}</td><td>${t.battles}</td><td>${t.wins}</td><td>${dec(t.volumeSol)}</td></tr>`).join("");
+      const months = Object.entries(w.battles.byMonth || {}).sort().slice(-12);
+      $("#w-note").textContent = months.length ? "Battles a month: " + months.map(([m, n]) => `${m} ${n}`).join(", ") + "." : "";
+    }
+    const dates = [...new Set([...(d.history.respect || []).map((x) => x.date), ...(d.history.wavewarz || []).map((x) => x.date)])].sort().reverse();
+    $("#history tbody").innerHTML = dates.map((date) => {
+      const rr = (d.history.respect || []).find((x) => x.date === date) || {}, ww = (d.history.wavewarz || []).find((x) => x.date === date) || {};
+      return `<tr><td class="l">${date}</td><td>${fmt(rr.wallets)}</td><td>${fmt(rr.og)}</td><td>${fmt(rr.zor)}</td><td>${fmt(ww.battles)}</td><td>${dec(ww.volumeSol, 1)}</td><td>${dec(ww.artistPayoutsSol)}</td></tr>`;
+    }).join("");
+  }).catch((e) => { $("#sub").textContent = "Could not load data.json: " + e.message; });
+</script>
+</body>
+</html>
