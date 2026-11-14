@@ -1,10 +1,10 @@
 # ZAO stats
 
-Numbers The ZAO can point at, read from the source every night: who holds ZAO Respect on Optimism (the two contracts), and what WaveWarZ has done (wavewarz.info's public API). Updated 2026-11-13T04:50:27Z. Site: https://zaodevz.github.io/zao-stats/ . Data: `data/` (one JSON per day per source).
+Numbers The ZAO can point at, read from the source every night: who holds ZAO Respect on Optimism (the two contracts), and what WaveWarZ has done (wavewarz.info's public API). Updated 2026-11-14T10:56:20Z. Site: https://zaodevz.github.io/zao-stats/ . Data: `data/` (one JSON per day per source).
 
 ## ZAO Respect holders
 
-Optimism block 159,473,317, 2026-11-13T04:50:27Z.
+Optimism block 159,527,491, 2026-11-14T10:56:20Z.
 
 | | OG Respect (ERC-20) | ZOR Respect (ERC-1155) | Both |
 |---|--:|--:|--:|
@@ -42,7 +42,7 @@ Top 10 wallets hold 45.2% of all Respect held. 2 wallets are a smart contract. S
 | 24 | `0x849e1c0b2460979d2f7c77b87b90c65c70406421` | 0 | 670 | 670 | 1.1% |
 | 25 | `0x547f8b793362df477a23af6ee05f8e4e291a2ee4` | 299 | 288 | 587 | 1.0% |
 
-All 173 wallets: `data/respect/2026-11-13.json` or the site.
+All 173 wallets: `data/respect/2026-11-14.json` or the site.
 
 **What this list is and is not** (Zaal's notes from the 31 Oct snapshot, still true until the proposals named execute):
 
@@ -56,17 +56,17 @@ All 173 wallets: `data/respect/2026-11-13.json` or the site.
 
 ## WaveWarZ
 
-wavewarz.info public API, 2026-11-13T04:50:38Z.
+wavewarz.info public API, 2026-11-14T10:56:30Z.
 
 | | |
 |---|--:|
-| Battles | 1,706 (1,501 decided) |
-| By kind | 65 main events, 197 main battles, 1,471 quick, 38 community |
-| Trading volume | 1,010 SOL (about $79,019), last 7 days 4.23 SOL |
-| Paid to artists | 15.93 SOL (about $1,247), automatic, 1% of volume plus settlement bonus |
-| Trader withdrawals | 524.9 SOL (about $41,070) over 3,627 claims |
-| Artists and songs | 1,179 artist names, 1,180 songs |
-| SOL price used | $78.24 |
+| Battles | 1,711 (1,506 decided) |
+| By kind | 65 main events, 197 main battles, 1,476 quick, 38 community |
+| Trading volume | 1,010.5 SOL (about $76,537), last 7 days 4.62 SOL |
+| Paid to artists | 15.94 SOL (about $1,207), automatic, 1% of volume plus settlement bonus |
+| Trader withdrawals | 525.4 SOL (about $39,793) over 3,634 claims |
+| Artists and songs | 1,183 artist names, 1,184 songs |
+| SOL price used | $75.74 |
 
 | # | Artist | Battles | Wins | Win rate | Vol SOL | Songs |
 |--:|---|--:|--:|--:|--:|--:|
@@ -80,13 +80,13 @@ wavewarz.info public API, 2026-11-13T04:50:38Z.
 | 8 | Dale Vuelta 360 | 18 | 10 | 56% | 4.45 | 1 |
 | 9 | Paradise | 23 | 10 | 43% | 2.85 | 1 |
 | 10 | Young Buck | 25 | 10 | 40% | 1.90 | 1 |
-| 11 | Limit Breaker Ft Cannon Jones | 19 | 9 | 47% | 6.11 | 1 |
-| 12 | AI LUI - A Christmas Love Song | 10 | 9 | 90% | 0.84 | 1 |
-| 13 | BestWavez x Hurric4n3Ike (Prod. x Hurric4n3Ike) 432 hz | 15 | 9 | 60% | 0.43 | 1 |
+| 11 | AI LUI - A Christmas Love Song | 11 | 10 | 91% | 0.85 | 1 |
+| 12 | Limit Breaker Ft Cannon Jones | 19 | 9 | 47% | 6.11 | 1 |
+| 13 | BestWavez x Hurric4n3Ike (Prod. x Hurric4n3Ike) 432 hz | 16 | 9 | 56% | 0.48 | 1 |
 | 14 | LUI | 13 | 8 | 62% | 88.79 | 2 |
 | 15 | Geek Myth | 10 | 8 | 80% | 39.21 | 2 |
 
-Battles a month: 2025-12 68, 2026-01 146, 2026-02 179, 2026-03 198, 2026-04 184, 2026-05 135, 2026-06 137, 2026-07 165, 2026-08 154, 2026-09 114, 2026-10 90, 2026-11 27.
+Battles a month: 2025-12 68, 2026-01 146, 2026-02 179, 2026-03 198, 2026-04 184, 2026-05 135, 2026-06 137, 2026-07 165, 2026-08 154, 2026-09 114, 2026-10 90, 2026-11 32.
 
 ## How it updates
 
