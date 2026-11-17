@@ -1,10 +1,10 @@
 # ZAO stats
 
-Numbers The ZAO can point at, read from the source every night: who holds ZAO Respect on Optimism (the two contracts), and what WaveWarZ has done (wavewarz.info's public API). Updated 2026-11-16T12:03:26Z. Site: https://zaodevz.github.io/zao-stats/ . Data: `data/` (one JSON per day per source).
+Numbers The ZAO can point at, read from the source every night: who holds ZAO Respect on Optimism (the two contracts), and what WaveWarZ has done (wavewarz.info's public API). Updated 2026-11-17T12:28:10Z. Site: https://zaodevz.github.io/zao-stats/ . Data: `data/` (one JSON per day per source).
 
 ## ZAO Respect holders
 
-Optimism block 159,615,906, 2026-11-16T12:03:26Z.
+Optimism block 159,659,848, 2026-11-17T12:28:10Z.
 
 | | OG Respect (ERC-20) | ZOR Respect (ERC-1155) | Both |
 |---|--:|--:|--:|
@@ -42,7 +42,7 @@ Top 10 wallets hold 45.2% of all Respect held. 2 wallets are a smart contract. S
 | 24 | `0x849e1c0b2460979d2f7c77b87b90c65c70406421` | 0 | 670 | 670 | 1.1% |
 | 25 | `0x547f8b793362df477a23af6ee05f8e4e291a2ee4` | 299 | 288 | 587 | 1.0% |
 
-All 173 wallets: `data/respect/2026-11-16.json` or the site.
+All 173 wallets: `data/respect/2026-11-17.json` or the site.
 
 **What this list is and is not** (Zaal's notes from the 31 Oct snapshot, still true until the proposals named execute):
 
@@ -56,22 +56,22 @@ All 173 wallets: `data/respect/2026-11-16.json` or the site.
 
 ## WaveWarZ
 
-wavewarz.info public API, 2026-11-16T12:03:35Z.
+wavewarz.info public API, 2026-11-17T12:28:19Z.
 
 | | |
 |---|--:|
-| Battles | 1,714 (1,510 decided) |
-| By kind | 66 main events, 200 main battles, 1,476 quick, 38 community |
-| Trading volume | 1,014.9 SOL (about $72,310), last 7 days 8.11 SOL |
-| Paid to artists | 16.08 SOL (about $1,146), automatic, 1% of volume plus settlement bonus |
-| Trader withdrawals | 528.9 SOL (about $37,683) over 3,640 claims |
-| Artists and songs | 1,185 artist names, 1,186 songs |
-| SOL price used | $71.25 |
+| Battles | 1,719 (1,514 decided) |
+| By kind | 66 main events, 200 main battles, 1,481 quick, 38 community |
+| Trading volume | 1,015.8 SOL (about $74,335), last 7 days 8.68 SOL |
+| Paid to artists | 16.09 SOL (about $1,178), automatic, 1% of volume plus settlement bonus |
+| Trader withdrawals | 529.2 SOL (about $38,729) over 3,647 claims |
+| Artists and songs | 1,190 artist names, 1,191 songs |
+| SOL price used | $73.18 |
 
 | # | Artist | Battles | Wins | Win rate | Vol SOL | Songs |
 |--:|---|--:|--:|--:|--:|--:|
 | 1 | Fuck yo feelingZ | 28 | 19 | 68% | 10.15 | 1 |
-| 2 | WaveWarZ, the electric vibez | 49 | 18 | 37% | 6.11 | 1 |
+| 2 | WaveWarZ, the electric vibez | 50 | 19 | 38% | 6.22 | 1 |
 | 3 | No Regrets @Hurric4n3Ike x @dopestilo | 20 | 14 | 70% | 1.29 | 1 |
 | 4 | IndieZ | 18 | 13 | 72% | 4.77 | 2 |
 | 5 | HEART OPEN | 28 | 13 | 46% | 3.95 | 1 |
@@ -86,7 +86,7 @@ wavewarz.info public API, 2026-11-16T12:03:35Z.
 | 14 | LUI | 13 | 8 | 62% | 88.79 | 2 |
 | 15 | Geek Myth | 10 | 8 | 80% | 39.21 | 2 |
 
-Battles a month: 2025-12 68, 2026-01 146, 2026-02 179, 2026-03 198, 2026-04 184, 2026-05 135, 2026-06 137, 2026-07 165, 2026-08 154, 2026-09 114, 2026-10 90, 2026-11 35.
+Battles a month: 2025-12 68, 2026-01 146, 2026-02 179, 2026-03 198, 2026-04 184, 2026-05 135, 2026-06 137, 2026-07 165, 2026-08 154, 2026-09 114, 2026-10 90, 2026-11 40.
 
 ## How it updates
 
