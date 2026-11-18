@@ -1,34 +1,34 @@
 # ZAO stats
 
-Numbers The ZAO can point at, read from the source every night: who holds ZAO Respect on Optimism (the two contracts), and what WaveWarZ has done (wavewarz.info's public API). Updated 2026-11-17T12:28:10Z. Site: https://zaodevz.github.io/zao-stats/ . Data: `data/` (one JSON per day per source).
+Numbers The ZAO can point at, read from the source every night: who holds ZAO Respect on Optimism (the two contracts), and what WaveWarZ has done (wavewarz.info's public API). Updated 2026-11-18T12:15:09Z. Site: https://zaodevz.github.io/zao-stats/ . Data: `data/` (one JSON per day per source).
 
 ## ZAO Respect holders
 
-Optimism block 159,659,848, 2026-11-17T12:28:10Z.
+Optimism block 159,702,657, 2026-11-18T12:15:09Z.
 
 | | OG Respect (ERC-20) | ZOR Respect (ERC-1155) | Both |
 |---|--:|--:|--:|
-| Held by wallets in this list | 38,484 | 20,408 | 58,892 |
-| Contract total | 38,484 (totalSupply) | 20,408 (totalRespect) | |
-| Wallets holding | 122 | 72 | 173 wallets, 21 hold both |
+| Held by wallets in this list | 38,484 | 20,900 | 59,384 |
+| Contract total | 38,484 (totalSupply) | 20,900 (totalRespect) | |
+| Wallets holding | 122 | 74 | 175 wallets, 21 hold both |
 
-Top 10 wallets hold 45.2% of all Respect held. 2 wallets are a smart contract. Since Zaal's 31 Oct 2026 snapshot (block 158,930,150): 12 transfers, 0 new wallets, 11 balances changed.
+Top 10 wallets hold 45.1% of all Respect held. 3 wallets are a smart contract. Since Zaal's 31 Oct 2026 snapshot (block 158,930,150): 20 transfers, 2 new wallets, 18 balances changed.
 
 | # | Wallet | OG | ZOR | Total | Share |
 |--:|---|--:|--:|--:|--:|
-| 1 | `0x7234c36a71ec237c2ae7698e8916e0735001e9af` | 3,094 | 952 | 4,046 | 6.9% |
-| 2 | `0x29f5dee65e1fb856b816eab4f0b702c10e5eaa34` | 2,512 | 1,176 | 3,688 | 6.3% |
-| 3 | `0x8d43a3fc2fed663bf6b82ea4792c0e5239d5ee66` | 1,914 | 1,732 | 3,646 | 6.2% |
+| 1 | `0x7234c36a71ec237c2ae7698e8916e0735001e9af` | 3,094 | 962 | 4,056 | 6.8% |
+| 2 | `0x8d43a3fc2fed663bf6b82ea4792c0e5239d5ee66` | 1,914 | 1,842 | 3,756 | 6.3% |
+| 3 | `0x29f5dee65e1fb856b816eab4f0b702c10e5eaa34` | 2,512 | 1,176 | 3,688 | 6.2% |
 | 4 | `0x7990d756acf4e12afc41f995130a33925fb868ee` | 3,079 | 0 | 3,079 | 5.2% |
 | 5 | `0xfab9a3d37999e12252b47468d2ffd4be15936012` | 2,310 | 356 | 2,666 | 4.5% |
 | 6 | `0x65284960d4eadaf45e923430a59b7d3bf34db641` | 2,278 | 312 | 2,590 | 4.4% |
 | 7 | `0x64a15b1d2de581097cb48e5d82619203e24bb3e1` | 1,265 | 730 | 1,995 | 3.4% |
-| 8 | `0x2d9cbc4ecfbd1b8f66aa798fd51585ae058daa8b` | 825 | 882 | 1,707 | 2.9% |
+| 8 | `0x2d9cbc4ecfbd1b8f66aa798fd51585ae058daa8b` | 825 | 950 | 1,775 | 3.0% |
 | 9 | `0x744cdf12d5d289db118ed9293c10cfa952169071` | 1,499 | 110 | 1,609 | 2.7% |
 | 10 | `0xb7f4b9caba6bb0aeaa2b5d8df23e2b59c192bdbb` | 611 | 982 | 1,593 | 2.7% |
 | 11 | `0x29185eb8cfd22aa719529217bfbade61677e0ad2` | 600 | 978 | 1,578 | 2.7% |
 | 12 | `0xa70fe49c71529808eb881455073beded47f7016c` | 1,379 | 0 | 1,379 | 2.3% |
-| 13 | `0xc96ab83c1b1605c9cf5ecc661a415e41423185d8` | 468 | 854 | 1,322 | 2.2% |
+| 13 | `0xc96ab83c1b1605c9cf5ecc661a415e41423185d8` | 468 | 880 | 1,348 | 2.3% |
 | 14 | `0x82cb2305388c853ecfe9ea83a1604acf58466659` | 647 | 642 | 1,289 | 2.2% |
 | 15 | `0xbc66077e3a212c5f255cfc986e7c0508cfeabfd1` | 1,147 | 0 | 1,147 | 1.9% |
 | 16 | `0xfda73b8459f66b6758d1809372df921365053af1` | 1,122 | 16 | 1,138 | 1.9% |
@@ -42,7 +42,7 @@ Top 10 wallets hold 45.2% of all Respect held. 2 wallets are a smart contract. S
 | 24 | `0x849e1c0b2460979d2f7c77b87b90c65c70406421` | 0 | 670 | 670 | 1.1% |
 | 25 | `0x547f8b793362df477a23af6ee05f8e4e291a2ee4` | 299 | 288 | 587 | 1.0% |
 
-All 173 wallets: `data/respect/2026-11-17.json` or the site.
+All 175 wallets: `data/respect/2026-11-18.json` or the site.
 
 **What this list is and is not** (Zaal's notes from the 31 Oct snapshot, still true until the proposals named execute):
 
@@ -56,17 +56,17 @@ All 173 wallets: `data/respect/2026-11-17.json` or the site.
 
 ## WaveWarZ
 
-wavewarz.info public API, 2026-11-17T12:28:19Z.
+wavewarz.info public API, 2026-11-18T12:15:22Z.
 
 | | |
 |---|--:|
 | Battles | 1,719 (1,514 decided) |
 | By kind | 66 main events, 200 main battles, 1,481 quick, 38 community |
-| Trading volume | 1,015.8 SOL (about $74,335), last 7 days 8.68 SOL |
-| Paid to artists | 16.09 SOL (about $1,178), automatic, 1% of volume plus settlement bonus |
-| Trader withdrawals | 529.2 SOL (about $38,729) over 3,647 claims |
+| Trading volume | 1,015.8 SOL (about $75,584), last 7 days 8.68 SOL |
+| Paid to artists | 16.09 SOL (about $1,197), automatic, 1% of volume plus settlement bonus |
+| Trader withdrawals | 529.2 SOL (about $39,380) over 3,647 claims |
 | Artists and songs | 1,190 artist names, 1,191 songs |
-| SOL price used | $73.18 |
+| SOL price used | $74.41 |
 
 | # | Artist | Battles | Wins | Win rate | Vol SOL | Songs |
 |--:|---|--:|--:|--:|--:|--:|
