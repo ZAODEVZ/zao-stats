@@ -1,0 +1,446 @@
+{
+ "date": "2026-11-19",
+ "at": "2026-11-19T12:09:24Z",
+ "source": "https://wavewarz.info",
+ "stats": {
+  "updatedAt": "2026-11-19T12:09:16.587Z",
+  "solPriceUsd": 74.65,
+  "volume": {
+   "totalSol": 1016.4364,
+   "totalUsd": 75876.9792,
+   "last24hSol": 0.6529,
+   "last7dSol": 6.4862
+  },
+  "liveBattle": null,
+  "artistPayouts": {
+   "totalSol": 16.0998,
+   "totalUsd": 1201.8504,
+   "note": "Instant, automatic onchain payouts to artists — 1% of trading volume + settlement bonus"
+  },
+  "traderClaims": {
+   "totalSol": 529.6765,
+   "totalUsd": 39540.3484,
+   "withdrawalCount": 3655,
+   "note": "Real trader withdrawals (claimShares), parsed from onchain vault transactions"
+  },
+  "battles": {
+   "total": 1724,
+   "mainEvents": 66,
+   "mainBattles": 200,
+   "quickBattles": 1486,
+   "communityBattles": 38
+  }
+ },
+ "battles": {
+  "total": 1724,
+  "decided": 1519,
+  "byType": {
+   "quick": 1486,
+   "main": 200,
+   "community": 38
+  },
+  "byMonth": {
+   "2026-11": 45,
+   "2026-10": 90,
+   "2026-09": 114,
+   "2026-08": 154,
+   "2026-07": 165,
+   "2026-06": 137,
+   "2026-05": 135,
+   "2026-04": 184,
+   "2026-03": 198,
+   "2026-02": 179,
+   "2026-01": 146,
+   "2025-12": 68,
+   "2025-11": 28,
+   "2025-10": 28,
+   "2025-09": 15,
+   "2025-08": 8,
+   "2025-07": 17,
+   "2025-06": 7,
+   "2025-05": 6
+  },
+  "volumeSolFromBattles": 1016.432
+ },
+ "artists": 1195,
+ "songs": 1196,
+ "topArtists": [
+  {
+   "name": "Fuck yo feelingZ",
+   "battles": 28,
+   "wins": 19,
+   "volumeSol": 10.146799999999999,
+   "songs": 1,
+   "winRate": 68
+  },
+  {
+   "name": "WaveWarZ, the electric vibez",
+   "battles": 51,
+   "wins": 19,
+   "volumeSol": 6.274399999999999,
+   "songs": 1,
+   "winRate": 37
+  },
+  {
+   "name": "No Regrets @Hurric4n3Ike x @dopestilo",
+   "battles": 20,
+   "wins": 14,
+   "volumeSol": 1.2935999999999999,
+   "songs": 1,
+   "winRate": 70
+  },
+  {
+   "name": "IndieZ",
+   "battles": 18,
+   "wins": 13,
+   "volumeSol": 4.7707,
+   "songs": 2,
+   "winRate": 72
+  },
+  {
+   "name": "HEART OPEN",
+   "battles": 28,
+   "wins": 13,
+   "volumeSol": 3.9487999999999994,
+   "songs": 1,
+   "winRate": 46
+  },
+  {
+   "name": "NSG Steppin x Kata7yst x LUI",
+   "battles": 20,
+   "wins": 11,
+   "volumeSol": 0.9415,
+   "songs": 1,
+   "winRate": 55
+  },
+  {
+   "name": "Cannon Jones feat Hurric4n3Ike X Makako flow-Fight Flow",
+   "battles": 22,
+   "wins": 10,
+   "volumeSol": 4.833699999999999,
+   "songs": 1,
+   "winRate": 45
+  },
+  {
+   "name": "Dale Vuelta 360",
+   "battles": 18,
+   "wins": 10,
+   "volumeSol": 4.447399999999999,
+   "songs": 1,
+   "winRate": 56
+  },
+  {
+   "name": "Paradise",
+   "battles": 23,
+   "wins": 10,
+   "volumeSol": 2.8533,
+   "songs": 1,
+   "winRate": 43
+  },
+  {
+   "name": "Young Buck",
+   "battles": 25,
+   "wins": 10,
+   "volumeSol": 1.8978000000000002,
+   "songs": 1,
+   "winRate": 40
+  },
+  {
+   "name": "AI LUI - A Christmas Love Song",
+   "battles": 11,
+   "wins": 10,
+   "volumeSol": 0.8515000000000001,
+   "songs": 1,
+   "winRate": 91
+  },
+  {
+   "name": "Limit Breaker Ft Cannon Jones",
+   "battles": 19,
+   "wins": 9,
+   "volumeSol": 6.1093,
+   "songs": 1,
+   "winRate": 47
+  },
+  {
+   "name": "BestWavez x Hurric4n3Ike (Prod. x Hurric4n3Ike) 432 hz",
+   "battles": 16,
+   "wins": 9,
+   "volumeSol": 0.4825,
+   "songs": 1,
+   "winRate": 56
+  },
+  {
+   "name": "LUI",
+   "battles": 13,
+   "wins": 8,
+   "volumeSol": 88.79499999999999,
+   "songs": 2,
+   "winRate": 62
+  },
+  {
+   "name": "Geek Myth",
+   "battles": 10,
+   "wins": 8,
+   "volumeSol": 39.2089,
+   "songs": 2,
+   "winRate": 80
+  },
+  {
+   "name": "LMNOPQRZ",
+   "battles": 20,
+   "wins": 8,
+   "volumeSol": 1.4264,
+   "songs": 1,
+   "winRate": 40
+  },
+  {
+   "name": "Double Back",
+   "battles": 22,
+   "wins": 8,
+   "volumeSol": 1.0816999999999999,
+   "songs": 1,
+   "winRate": 36
+  },
+  {
+   "name": "Hero",
+   "battles": 12,
+   "wins": 8,
+   "volumeSol": 0.8673,
+   "songs": 1,
+   "winRate": 67
+  },
+  {
+   "name": "Nothing To Lose",
+   "battles": 15,
+   "wins": 8,
+   "volumeSol": 0.7791,
+   "songs": 1,
+   "winRate": 53
+  },
+  {
+   "name": "Hurric4n3Ike",
+   "battles": 20,
+   "wins": 7,
+   "volumeSol": 6.9768,
+   "songs": 7,
+   "winRate": 35
+  },
+  {
+   "name": "Stormi",
+   "battles": 12,
+   "wins": 7,
+   "volumeSol": 6.958399999999999,
+   "songs": 3,
+   "winRate": 58
+  },
+  {
+   "name": "For my PeopleZ",
+   "battles": 9,
+   "wins": 7,
+   "volumeSol": 2.8166,
+   "songs": 1,
+   "winRate": 78
+  },
+  {
+   "name": "$PSYOPWavez x Hurric4n3Ike",
+   "battles": 12,
+   "wins": 7,
+   "volumeSol": 1.8987,
+   "songs": 2,
+   "winRate": 58
+  },
+  {
+   "name": "Feel This Way",
+   "battles": 15,
+   "wins": 7,
+   "volumeSol": 1.2092,
+   "songs": 1,
+   "winRate": 47
+  },
+  {
+   "name": "50 kal kash feat Cannon Jones973 X Bucketts- Soul Food",
+   "battles": 11,
+   "wins": 7,
+   "volumeSol": 1.0779,
+   "songs": 1,
+   "winRate": 64
+  }
+ ],
+ "topSongs": [
+  {
+   "url": "http://soundcloud.com/geekmyth",
+   "artist": "GEEK MYTH",
+   "battles": 6,
+   "wins": 4,
+   "volumeSol": 279.5191
+  },
+  {
+   "url": "https://iamlui.com/",
+   "artist": "LUI",
+   "battles": 15,
+   "wins": 9,
+   "volumeSol": 105.56609999999998
+  },
+  {
+   "url": "soundcloud.com/geekmyth",
+   "artist": "Geek Myth",
+   "battles": 7,
+   "wins": 6,
+   "volumeSol": 35.7933
+  },
+  {
+   "url": "https://stiloworld.com/",
+   "artist": "Stella Estrella",
+   "battles": 10,
+   "wins": 5,
+   "volumeSol": 26.035800000000002
+  },
+  {
+   "url": "https://linktr.ee/Aporkalypse",
+   "artist": "Aporkalypse",
+   "battles": 18,
+   "wins": 8,
+   "volumeSol": 22.360300000000002
+  },
+  {
+   "url": "https://x.com/NFTWonderfull",
+   "artist": "ItzWonderfull",
+   "battles": 3,
+   "wins": 1,
+   "volumeSol": 19.0916
+  },
+  {
+   "url": " https://linktr.ee/Stormbourne76",
+   "artist": "STORMI",
+   "battles": 6,
+   "wins": 2,
+   "volumeSol": 16.361
+  },
+  {
+   "url": "https://www.youtube.com/@dopestilo",
+   "artist": "STILO English",
+   "battles": 9,
+   "wins": 4,
+   "volumeSol": 14.2183
+  },
+  {
+   "url": "https://launchmynft.io/collections/F4HRLiYo8uk9uuF9PV23czSHRy38sgj9uPBJdx4dmZnP/MilGFTgfo2QpijIGeOFz",
+   "artist": "RoCkY2GriMeY",
+   "battles": 5,
+   "wins": 2,
+   "volumeSol": 11.424
+  },
+  {
+   "url": " https://www.wavewarz.com/",
+   "artist": "WaveWarriorZ",
+   "battles": 4,
+   "wins": 3,
+   "volumeSol": 11.174500000000002
+  },
+  {
+   "url": "https://audius.co/GodclouD/fuck-yo-feelingz",
+   "artist": "Fuck yo feelingZ",
+   "battles": 28,
+   "wins": 19,
+   "volumeSol": 10.146799999999999
+  },
+  {
+   "url": "https://www.youdigdat.com/bennyj504",
+   "artist": "Benny J",
+   "battles": 3,
+   "wins": 1,
+   "volumeSol": 9.9353
+  },
+  {
+   "url": "https://objkt.com/users/tz2RWbByYGdhGAoE8EbJ4suxEdJc1FAAmuQq/created ",
+   "artist": "Cannon Jones973",
+   "battles": 6,
+   "wins": 4,
+   "volumeSol": 9.837200000000001
+  },
+  {
+   "url": "https://www.godcloud.org/",
+   "artist": "GodCloud",
+   "battles": 9,
+   "wins": 5,
+   "volumeSol": 9.4327
+  },
+  {
+   "url": "https://profitvsprophet.com/",
+   "artist": "PROF!T",
+   "battles": 5,
+   "wins": 3,
+   "volumeSol": 7.6946
+  },
+  {
+   "url": "https://linktr.ee/lexibanti",
+   "artist": "LexiBanti",
+   "battles": 3,
+   "wins": 1,
+   "volumeSol": 7.5862
+  },
+  {
+   "url": "https://love-song-battle.vercel.app/",
+   "artist": "IndieZ",
+   "battles": 26,
+   "wins": 13,
+   "volumeSol": 6.8974
+  },
+  {
+   "url": "https://t.co/tsaExYKxDl",
+   "artist": "One",
+   "battles": 5,
+   "wins": 3,
+   "volumeSol": 6.707599999999999
+  },
+  {
+   "url": " https://linktr.ee/dcoopvec",
+   "artist": "DCOOP",
+   "battles": 3,
+   "wins": 0,
+   "volumeSol": 6.3336
+  },
+  {
+   "url": "https://audius.co/bettercallzaal/wavewarz-the-electric-vibez",
+   "artist": "WaveWarZ, the electric vibez",
+   "battles": 51,
+   "wins": 19,
+   "volumeSol": 6.274399999999999
+  },
+  {
+   "url": "https://audius.co/Kata7yst/limit-breaker-ft-cannon-jones",
+   "artist": "Limit Breaker Ft Cannon Jones",
+   "battles": 19,
+   "wins": 9,
+   "volumeSol": 6.1093
+  },
+  {
+   "url": "https://twitch.tv/scessions",
+   "artist": "Krem",
+   "battles": 5,
+   "wins": 2,
+   "volumeSol": 5.793200000000001
+  },
+  {
+   "url": "https://www.wavezstation.com/",
+   "artist": "Hurric4n3Ike",
+   "battles": 3,
+   "wins": 1,
+   "volumeSol": 5.5721
+  },
+  {
+   "url": "https://gravatar.com/profoundlydependable59a59d8642",
+   "artist": "Preshzino Songz",
+   "battles": 3,
+   "wins": 2,
+   "volumeSol": 5.5103
+  },
+  {
+   "url": " https://hyperfollow.com/r3plic4nt",
+   "artist": "R3Plic4nT",
+   "battles": 6,
+   "wins": 3,
+   "volumeSol": 5.3898
+  }
+ ]
+}
