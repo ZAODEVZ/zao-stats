@@ -1,5 +1,5 @@
 {
- "lastBlock": 159788944,
+ "lastBlock": 159831432,
  "wallets": [
   "0x007aefc84c5e47bcc0f6f1e7028196e18f574398",
   "0x03726e10565402a1137960ba06681754be7fe05f",
@@ -183,5 +183,5 @@
   "0x807061df657a7697c04045da7d16d941861caabc"
  ],
  "transfersSinceSeed": 20,
- "updated": "2026-11-20T12:11:22Z"
+ "updated": "2026-11-21T11:47:41Z"
 }
