@@ -1,32 +1,32 @@
 # ZAO stats
 
-Numbers The ZAO can point at, read from the source every night: who holds ZAO Respect on Optimism (the two contracts), and what WaveWarZ has done (wavewarz.info's public API). Updated 2026-11-23T13:39:58Z. Site: https://zaodevz.github.io/zao-stats/ . Data: `data/` (one JSON per day per source).
+Numbers The ZAO can point at, read from the source every night: who holds ZAO Respect on Optimism (the two contracts), and what WaveWarZ has done (wavewarz.info's public API). Updated 2026-11-24T14:16:59Z. Site: https://zaodevz.github.io/zao-stats/ . Data: `data/` (one JSON per day per source).
 
 ## ZAO Respect holders
 
-Optimism block 159,921,202, 2026-11-23T13:39:58Z.
+Optimism block 159,965,513, 2026-11-24T14:16:59Z.
 
 | | OG Respect (ERC-20) | ZOR Respect (ERC-1155) | Both |
 |---|--:|--:|--:|
-| Held by wallets in this list | 38,484 | 20,900 | 59,384 |
-| Contract total | 38,484 (totalSupply) | 20,900 (totalRespect) | |
+| Held by wallets in this list | 38,484 | 21,146 | 59,630 |
+| Contract total | 38,484 (totalSupply) | 21,146 (totalRespect) | |
 | Wallets holding | 122 | 74 | 175 wallets, 21 hold both |
 
-Top 10 wallets hold 45.1% of all Respect held. 3 wallets are a smart contract. Since Zaal's 31 Oct 2026 snapshot (block 158,930,150): 20 transfers, 0 new wallets, 18 balances changed.
+Top 10 wallets hold 45.1% of all Respect held. 3 wallets are a smart contract. Since Zaal's 31 Oct 2026 snapshot (block 158,930,150): 24 transfers, 0 new wallets, 20 balances changed.
 
 | # | Wallet | OG | ZOR | Total | Share |
 |--:|---|--:|--:|--:|--:|
-| 1 | `0x7234c36a71ec237c2ae7698e8916e0735001e9af` | 3,094 | 962 | 4,056 | 6.8% |
+| 1 | `0x7234c36a71ec237c2ae7698e8916e0735001e9af` | 3,094 | 988 | 4,082 | 6.8% |
 | 2 | `0x8d43a3fc2fed663bf6b82ea4792c0e5239d5ee66` | 1,914 | 1,842 | 3,756 | 6.3% |
 | 3 | `0x29f5dee65e1fb856b816eab4f0b702c10e5eaa34` | 2,512 | 1,176 | 3,688 | 6.2% |
 | 4 | `0x7990d756acf4e12afc41f995130a33925fb868ee` | 3,079 | 0 | 3,079 | 5.2% |
 | 5 | `0xfab9a3d37999e12252b47468d2ffd4be15936012` | 2,310 | 356 | 2,666 | 4.5% |
-| 6 | `0x65284960d4eadaf45e923430a59b7d3bf34db641` | 2,278 | 312 | 2,590 | 4.4% |
-| 7 | `0x64a15b1d2de581097cb48e5d82619203e24bb3e1` | 1,265 | 730 | 1,995 | 3.4% |
-| 8 | `0x2d9cbc4ecfbd1b8f66aa798fd51585ae058daa8b` | 825 | 950 | 1,775 | 3.0% |
+| 6 | `0x65284960d4eadaf45e923430a59b7d3bf34db641` | 2,278 | 312 | 2,590 | 4.3% |
+| 7 | `0x64a15b1d2de581097cb48e5d82619203e24bb3e1` | 1,265 | 730 | 1,995 | 3.3% |
+| 8 | `0x2d9cbc4ecfbd1b8f66aa798fd51585ae058daa8b` | 825 | 1,018 | 1,843 | 3.1% |
 | 9 | `0x744cdf12d5d289db118ed9293c10cfa952169071` | 1,499 | 110 | 1,609 | 2.7% |
 | 10 | `0xb7f4b9caba6bb0aeaa2b5d8df23e2b59c192bdbb` | 611 | 982 | 1,593 | 2.7% |
-| 11 | `0x29185eb8cfd22aa719529217bfbade61677e0ad2` | 600 | 978 | 1,578 | 2.7% |
+| 11 | `0x29185eb8cfd22aa719529217bfbade61677e0ad2` | 600 | 978 | 1,578 | 2.6% |
 | 12 | `0xa70fe49c71529808eb881455073beded47f7016c` | 1,379 | 0 | 1,379 | 2.3% |
 | 13 | `0xc96ab83c1b1605c9cf5ecc661a415e41423185d8` | 468 | 880 | 1,348 | 2.3% |
 | 14 | `0x82cb2305388c853ecfe9ea83a1604acf58466659` | 647 | 642 | 1,289 | 2.2% |
@@ -35,14 +35,14 @@ Top 10 wallets hold 45.1% of all Respect held. 3 wallets are a smart contract. S
 | 17 | `0xf6519fef3eacfdb7843beea94a887255794438f0` | 910 | 150 | 1,060 | 1.8% |
 | 18 | `0x9e4281619db487c2f577e67a7174ff8f5c5e4706` | 1,000 | 0 | 1,000 | 1.7% |
 | 19 | `0x1af4c2950c5c892d1f4aacd60e8f656a14555e5a` | 878 | 0 | 878 | 1.5% |
-| 20 | `0xf73485a61856ab07ad57152151db3ab99df9a8ea` | 0 | 806 | 806 | 1.4% |
+| 20 | `0xf73485a61856ab07ad57152151db3ab99df9a8ea` | 0 | 848 | 848 | 1.4% |
 | 21 | `0x07686bedb0102e47d33cec73307d2cc391aff396` | 0 | 794 | 794 | 1.3% |
 | 22 | `0xfcf77ac2cef5eb373d8eb9163f518126cce44f47` | 785 | 0 | 785 | 1.3% |
 | 23 | `0x03726e10565402a1137960ba06681754be7fe05f` | 355 | 404 | 759 | 1.3% |
 | 24 | `0x849e1c0b2460979d2f7c77b87b90c65c70406421` | 0 | 670 | 670 | 1.1% |
 | 25 | `0x547f8b793362df477a23af6ee05f8e4e291a2ee4` | 299 | 288 | 587 | 1.0% |
 
-All 175 wallets: `data/respect/2026-11-23.json` or the site.
+All 175 wallets: `data/respect/2026-11-24.json` or the site.
 
 **What this list is and is not** (Zaal's notes from the 31 Oct snapshot, still true until the proposals named execute):
 
@@ -56,17 +56,17 @@ All 175 wallets: `data/respect/2026-11-23.json` or the site.
 
 ## WaveWarZ
 
-wavewarz.info public API, 2026-11-23T13:40:06Z.
+wavewarz.info public API, 2026-11-24T14:17:09Z.
 
 | | |
 |---|--:|
-| Battles | 1,729 (1,524 decided) |
-| By kind | 66 main events, 200 main battles, 1,491 quick, 38 community |
-| Trading volume | 1,016.9 SOL (about $73,653), last 7 days 2.14 SOL |
-| Paid to artists | 16.12 SOL (about $1,167), automatic, 1% of volume plus settlement bonus |
-| Trader withdrawals | 531.3 SOL (about $38,481) over 3,676 claims |
-| Artists and songs | 1,199 artist names, 1,200 songs |
-| SOL price used | $72.43 |
+| Battles | 1,733 (1,528 decided) |
+| By kind | 66 main events, 200 main battles, 1,495 quick, 38 community |
+| Trading volume | 1,017.4 SOL (about $71,186), last 7 days 1.73 SOL |
+| Paid to artists | 16.14 SOL (about $1,129), automatic, 1% of volume plus settlement bonus |
+| Trader withdrawals | 531.3 SOL (about $37,174) over 3,676 claims |
+| Artists and songs | 1,201 artist names, 1,202 songs |
+| SOL price used | $69.97 |
 
 | # | Artist | Battles | Wins | Win rate | Vol SOL | Songs |
 |--:|---|--:|--:|--:|--:|--:|
@@ -86,7 +86,7 @@ wavewarz.info public API, 2026-11-23T13:40:06Z.
 | 14 | LUI | 13 | 8 | 62% | 88.79 | 2 |
 | 15 | Geek Myth | 10 | 8 | 80% | 39.21 | 2 |
 
-Battles a month: 2025-12 68, 2026-01 146, 2026-02 179, 2026-03 198, 2026-04 184, 2026-05 135, 2026-06 137, 2026-07 165, 2026-08 154, 2026-09 114, 2026-10 90, 2026-11 50.
+Battles a month: 2025-12 68, 2026-01 146, 2026-02 179, 2026-03 198, 2026-04 184, 2026-05 135, 2026-06 137, 2026-07 165, 2026-08 154, 2026-09 114, 2026-10 90, 2026-11 54.
 
 ## How it updates
 
