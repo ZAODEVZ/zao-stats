@@ -1,10 +1,10 @@
 # ZAO stats
 
-Numbers The ZAO can point at, read from the source every night: who holds ZAO Respect on Optimism (the two contracts), and what WaveWarZ has done (wavewarz.info's public API). Updated 2026-11-24T14:16:59Z. Site: https://zaodevz.github.io/zao-stats/ . Data: `data/` (one JSON per day per source).
+Numbers The ZAO can point at, read from the source every night: who holds ZAO Respect on Optimism (the two contracts), and what WaveWarZ has done (wavewarz.info's public API). Updated 2026-11-25T13:30:30Z. Site: https://zaodevz.github.io/zao-stats/ . Data: `data/` (one JSON per day per source).
 
 ## ZAO Respect holders
 
-Optimism block 159,965,513, 2026-11-24T14:16:59Z.
+Optimism block 160,007,317, 2026-11-25T13:30:30Z.
 
 | | OG Respect (ERC-20) | ZOR Respect (ERC-1155) | Both |
 |---|--:|--:|--:|
@@ -42,7 +42,7 @@ Top 10 wallets hold 45.1% of all Respect held. 3 wallets are a smart contract. S
 | 24 | `0x849e1c0b2460979d2f7c77b87b90c65c70406421` | 0 | 670 | 670 | 1.1% |
 | 25 | `0x547f8b793362df477a23af6ee05f8e4e291a2ee4` | 299 | 288 | 587 | 1.0% |
 
-All 175 wallets: `data/respect/2026-11-24.json` or the site.
+All 175 wallets: `data/respect/2026-11-25.json` or the site.
 
 **What this list is and is not** (Zaal's notes from the 31 Oct snapshot, still true until the proposals named execute):
 
@@ -56,17 +56,17 @@ All 175 wallets: `data/respect/2026-11-24.json` or the site.
 
 ## WaveWarZ
 
-wavewarz.info public API, 2026-11-24T14:17:09Z.
+wavewarz.info public API, 2026-11-25T13:30:41Z.
 
 | | |
 |---|--:|
 | Battles | 1,733 (1,528 decided) |
 | By kind | 66 main events, 200 main battles, 1,495 quick, 38 community |
-| Trading volume | 1,017.4 SOL (about $71,186), last 7 days 1.73 SOL |
-| Paid to artists | 16.14 SOL (about $1,129), automatic, 1% of volume plus settlement bonus |
-| Trader withdrawals | 531.3 SOL (about $37,174) over 3,676 claims |
+| Trading volume | 1,017.4 SOL (about $69,030), last 7 days 1.73 SOL |
+| Paid to artists | 16.14 SOL (about $1,095), automatic, 1% of volume plus settlement bonus |
+| Trader withdrawals | 531.8 SOL (about $36,081) over 3,680 claims |
 | Artists and songs | 1,201 artist names, 1,202 songs |
-| SOL price used | $69.97 |
+| SOL price used | $67.85 |
 
 | # | Artist | Battles | Wins | Win rate | Vol SOL | Songs |
 |--:|---|--:|--:|--:|--:|--:|
